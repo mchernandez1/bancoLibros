@@ -5,11 +5,11 @@ This project was created with Node.js, Express, React and MongoDB.
 ## Table of Contents
 
 - [Objetives](#Objectives)
-- [How do you run?](#How do you run?)
+- [How do you run?](#Howdoyourun?)
 - [Authors](#Authors)
 - [Others](#Others)
   - [Screenshot](#Screenshot)
-  - [MIT License](#MIT License)
+  - [MIT License](#MITLicense)
 
 ### Objectives
 
