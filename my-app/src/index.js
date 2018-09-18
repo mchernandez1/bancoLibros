@@ -2,9 +2,9 @@ var express = require("express");
 var path = require("path");
 var mongo = require("mongoose");
 var bodyParser = require('body-parser');
-var morgan = require("morgan");
 var helmet = require('helmet');
 var db = require("./config.js");
+/Nicolas Simmonds: me parece improtante eliminar variables que no se usan como morgan en este caso, parra tener mas limpio el codigo
 
 var app = express();
 var port = process.env.port || 7777;
