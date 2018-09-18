@@ -185,5 +185,6 @@ var PrestamosAll = React.createClass({
     );
   }
 });
-
+/*Nicolas SImmonds: En general es buena idea poner comentarios que describan asi sea brevemente que es lo que esta haciendo cada pedazo de codigo
+para que sea mas facil de modificar incluso para el dueño del mismo*/
 ReactDOM.render(<PrestamosAll  />, document.getElementById('root'))
