@@ -29,7 +29,6 @@ var prestamoSchema = new Schema({
 var connection = mongoose.createConnection('mongodb://usuario1:usuario2@ds259912.mlab.com:59912/bancolibrosmateriales');
 var model = connection.model('prestamos', prestamoSchema);
 
-//var model = mongoose.model('prestamos', prestamoSchema, 'prestamos');
 
 //api for get data from database
 app.get("/api/getPrestamo",function(req,res){
